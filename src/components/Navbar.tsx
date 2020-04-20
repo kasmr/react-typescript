@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
@@ -7,12 +8,12 @@ const Navbar: React.FC = () => {
         <a href='/' className='brand-logo'>
           React + Typescript
         </a>
-        <ul id='nav-mobile' className='right hide-on-med-and-down'>
+        <ul id='nav-mobile' className='right'>
           <li>
-            <a href='/'>Список дел</a>
+            <NavLink to='/'>Список дел</NavLink>
           </li>
           <li>
-            <a href='/'>Информация</a>
+            <NavLink to='/about'>Информация</NavLink>
           </li>
         </ul>
       </div>

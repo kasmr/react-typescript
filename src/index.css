@@ -31,8 +31,8 @@ code {
 .todo label {
   width: 100%;
   display: flex;
-  align-self: center;
-  justify-self: space-between;
+  align-items: center;
+  justify-content: space-between;
   cursor: pointer;
   padding: 1rem;
   background: #f3f3f3;
